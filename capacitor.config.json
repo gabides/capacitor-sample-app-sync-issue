@@ -6,5 +6,9 @@
     "SplashScreen": {
       "launchShowDuration": 0
     }
+  },
+  "ios": {
+    "path": "custom/path/ios",
+    "scheme": "app"
   }
 }

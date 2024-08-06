@@ -10,17 +10,18 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "capacitor:sync:after": "echo 'capacitor:sync:after' && pwd"
   },
   "dependencies": {
-    "@capacitor/camera": "latest",
-    "@capacitor/core": "latest",
-    "@capacitor/ios": "^6.1.1",
-    "@capacitor/splash-screen": "latest"
+    "@capacitor/camera": "6.0.1",
+    "@capacitor/core": "6.1.1",
+    "@capacitor/ios": "6.1.1",
+    "@capacitor/splash-screen": "6.0.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "latest",
-    "vite": "^2.9.13"
+    "@capacitor/cli": "6.1.1",
+    "vite": "2.9.13"
   },
   "author": "",
   "license": "ISC"
