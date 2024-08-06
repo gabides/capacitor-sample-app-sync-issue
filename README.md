@@ -32,3 +32,5 @@ npx cap sync
 ```
 
 you will see in the logs that the sync is executed at the root of the repo (`capacitor-sample-app-sync-issue/`)
+
+this behaviour seems related to the nx.json config, and is not reproducible with `@capacitor/cli` version 6.0.1
